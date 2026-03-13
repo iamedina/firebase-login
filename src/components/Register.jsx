@@ -16,6 +16,7 @@ function Registro() {
         const token = await infoUser.user.getIdToken(true);
         sessionStorage.setItem('token', JSON.stringify(token));
 
+        setMensaje('Registered user');
         await new Promise((resolve) => setTimeout(resolve, 3000));
         navigate('/fake');
       } catch (error) {
