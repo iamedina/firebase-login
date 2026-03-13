@@ -1,16 +1,52 @@
-<svg width="32" height="32" viewBox="0 0 500 500" xmlns="http://w3.org">
+<svg width="32" height="32" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
   <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+      <stop offset="0%" stop-color="#3498db" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#2980b9" stop-opacity="1"/>
     </linearGradient>
   </defs>
+
   <!-- Cuerpo Bolsa -->
-  <rect x="100" y="220" width="300" height="220" rx="30" fill="url(#grad)" stroke="#1a3a5a" stroke-width="20""")/>>
+  <rect 
+    x="100" 
+    y="220" 
+    width="300" 
+    height="220" 
+    rx="30"
+    fill="url(#grad)" 
+    stroke="#1a3a5a" 
+    stroke-width="20"
+  />
+
   <!-- Asa -->
-  <path d="M180 220 V160 Q180 100 250 100 Q320 100 320 160 V220" fill="none" stroke="#1a3a5a" stroke-width="25" stroke-linecap="round""")/>>
+  <path 
+    d="M180 220 V160 Q180 100 250 100 Q320 100 320 160 V220" 
+    fill="none" 
+    stroke="#1a3a5a" 
+    stroke-width="25" 
+    stroke-linecap="round"
+  />
+
   <!-- Toldo -->
-  <path d="M80 220 Q80 270 140 270 Q200 270 200 220 Q200 270 250 270 Q300 270 300 220 Q300 270 360 270 Q420 270 420 220 L390 150 H110 Z" fill="#f1c40f" stroke="#1a3a5a" stroke-width="15""")/>>
+  <path 
+    d="M80 220 Q80 270 140 270 Q200 270 200 220 Q200 270 250 270 Q300 270 300 220 Q300 270 360 270 Q420 270 420 220 L390 150 H110 Z"
+    fill="#f1c40f" 
+    stroke="#1a3a5a" 
+    stroke-width="15"
+  />
+
   <!-- Etiqueta -->
-  <rect x="330" y="140" width="80" height="110" rx="10" transform="rotate(30 370 195)" fill="#e67e22" stroke="#1a3a5a" stroke-width="15""")/>>
+  <rect 
+    x="330" 
+    y="140" 
+    width="80" 
+    height="110" 
+    rx="10" 
+    transform="rotate(30 370 195)"
+    fill="#e67e22" 
+    stroke="#1a3a5a" 
+    stroke-width="15"
+  />
+
 </svg>
