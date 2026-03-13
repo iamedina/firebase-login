@@ -15,6 +15,9 @@ function Registro() {
     
         const token = await infoUser.user.getIdToken(true);
         sessionStorage.setItem('token', JSON.stringify(token));
+
+        await new Promise((resolve) => setTimeout(resolve, 3000));
+        navigate('/fake');
       } catch (error) {
         if(error.code === 'auth/popup-closed-by-user') {
             setMensaje("El usuario cerró el popup sin completar el login.");
